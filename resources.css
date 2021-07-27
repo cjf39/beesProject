@@ -157,10 +157,11 @@ article {
 }
 article h2 {
 	padding-top: 0;
+	color: #ff5500;
 }
-article h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
+article a {
+			  font-size: 150%;
+			  color: #0000ff;
 }
 
 article img {
