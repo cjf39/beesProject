@@ -1,0 +1,347 @@
+/*-- DEVELOPER: Carlos Fernandez, IS117-001, Fall 2020 */
+
+/* type selectors */
+html
+{
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom:.2em;
+	background-color:#d06800
+}
+header {
+	padding: 0em 0 0em 0;
+	border-bottom: 0px solid #000951;
+	background-image: -moz-linear-gradient(
+	30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+	background-image: -webkit-linear-gradient(
+	30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+	background-image: -o-linear-gradient(
+	30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+	background-image: linear-gradient(
+	30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+}
+body {
+	font-family: Lorem Ipsum;
+	font-size: 100%;
+	width: 880px;
+	max-width: 100%; /*Page size width should take above 100%.It will not give good look incase of responsive web design*/
+	background-color: white;
+	margin: 20px auto;
+		padding-bottom: 2em;
+	border: 3px solid #000951;
+	height: 680px;
+}
+
+
+main img {
+	width: 37%;
+	border: 3px solid red;
+	height: 450px;
+	margin: 40px;
+}
+
+article, aside, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+article, aside {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+
+
+a {
+	font-weight: bold;
+}
+a:link, a:visited {
+	color: #931420;
+}
+a:hover, a:focus {
+	color: black;
+}
+
+p {
+	font-size: 95%;
+	padding: .25em 0;
+}
+em {
+	font-weight: bold;
+}
+
+fieldset {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: .5em;
+}
+legend {
+	color: #931420;
+	font-weight: bold;
+	font-size: 85%;
+	margin-bottom: .5em;
+}
+label {
+	float: left;
+	width: 12em;
+	text-align: right;
+}
+label, input, select {
+	font-size: 90%;
+}
+input, select {
+	width: 15em;
+	margin-left: .5em;
+	margin-bottom: .5em;
+}
+input:required, input[required] {
+	border: 1.5px solid red;
+}
+input:valid {
+	border:  #ff0000px  black;
+}
+input:invalid {
+	box-shadow: none;
+}
+br {
+	clear: both;
+}
+#buttons input {
+	width: 7em;
+}
+
+/* the styles for the header */
+header {
+	padding-bottom: .5em;
+}
+header h2 {
+	font-size: 220%;
+	color: #000951;
+	margin-left: 120px;
+	margin-bottom: .25em;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	margin-left: 120px;
+}
+header img {
+	float: left;
+	margin-left: 20px;
+	border: 0;
+}
+.shadow {
+	text-shadow: 2px 2px 2px orangered;
+}
+
+/* The styles for the navigation menu - formatting
+/* the styles for the navigation menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+	width: 16.6666667%;
+}
+#nav_menu ul li a {
+	display: block;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #000951;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu a.current {
+	color: #00ffea;
+}
+
+#nav_menu ul ul {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* the styles for the article */
+article {
+	width: 535px;
+	max-width: 60%;
+	margin-left: 15px;
+	padding-right: 25px;
+	float: right;
+}
+article h1 {
+	font-size: 170%;
+	margin-bottom: 0.35em;
+}
+
+
+/* the styles for the sidebar */
+aside {
+	width: 350px;
+	float: right;
+	padding: 20px;
+	background-color: #ffebc6;
+	margin-right: 20px;
+}
+aside h2 {
+	font-size: 130%;
+	padding-bottom: .5em;
+}
+aside ul {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+aside li {
+	font-size: 95%;
+	padding-bottom: 0.35em;
+}
+
+
+/* footer */
+footer {
+	background-color: #000951;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+
+#mobile_menu{
+	display: none;
+}
+
+.menu-button {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	cursor: pointer;
+}
+
+.content-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* tablet portrait to standard 960 */
+@media only screen and (max-width: 959px) {
+	section h1 {
+		font-size: 135%;
+	}
+	section h2, aside h2 {
+		font-size: 120%;
+	}
+}
+
+/* phone and tablet mode */
+@media only screen and (max-width: 767px) {
+	header img {
+		float: none;
+	}
+	header {
+		text-align: center;
+	}
+	section {
+		float: none;
+		width: 95%;
+	}
+	aside {
+		float: none;
+		padding-right: 2.5%;
+		width: 95%;
+	}
+	article img {
+		max-width: 10%;
+	}
+	#speakers {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+	#mobile_menu {
+		display: block;
+	}
+
+	.slicknav_menu {
+		background-color: #000951 !important;
+	}
+	/*Customizing navigation view for mobile*/
+	#nav_menu {
+		display: none;
+		position: absolute;
+		top: 50px;
+	}
+
+	#nav_menu ul li {
+		float: none;
+		width: 300px;
+		position: relative;
+	}
+
+	#nav_menu ul ul{
+		position: absolute;
+		top: 0;
+		left: 300px;
+	}
+
+	.menu-button {
+		display: block;
+	}
+
+	.menu-button:hover ~ #nav_menu{
+		display: block !important;
+	}
+
+	#nav_menu:hover {
+		display: block !important;
+	}
+
+	.menu-button > div {
+		width: 35px;
+		height: 5px;
+		background-color: black;
+		margin: 6px 0;
+	}
+
+	.content-section {
+		flex-direction: column;
+	}
+
+	.content-section img,.content-section article {
+		width: 70%;
+	}
+
+	form fieldset {
+		text-align: center;
+	}
+	form label {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/* mobile to tablet mode */
+@media only screen and (max-width: 479px) {
+	body {
+		font-size: 90%;
+	}
+}

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="C:\Users\carlo\Desktop\final project\final project.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost/]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost/]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+  <PM_LANGUAGE><![CDATA[]]></PM_LANGUAGE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.11">
+  <errfile name="C:\Users\carlo\Desktop\final project\slicknav.css">
+   <error val="1;67;1;68;2502;1;"/>
+  </errfile>
+  <errfile name="C:\Users\carlo\Desktop\final project\BeePage.css">
+   <error val="1;120;10;120;2502;1;"/>
+   <error val="4;249;9;249;2501;1;"/>
+  </errfile>
+ </errors>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file name="C:\Users\carlo\Desktop\final project\video.html" crc="1627277628888"/>
+  <file name="C:\Users\carlo\Desktop\final project\video.css" crc="1627025420448"/>
+  <file name="C:\Users\carlo\Desktop\final project\Species.html" crc="1627320707029"/>
+  <file name="C:\Users\carlo\Desktop\final project\species.css" crc="1627316976445"/>
+  <file name="C:\Users\carlo\Desktop\final project\slicknav.css" crc="1626974873525"/>
+  <file name="C:\Users\carlo\Desktop\final project\silcknav.css" crc="1626980588000"/>
+  <file name="C:\Users\carlo\Desktop\final project\printPage.js" crc="1626973905392"/>
+  <file name="C:\Users\carlo\Desktop\final project\normalize.css" crc="1626974873527"/>
+  <file name="C:\Users\carlo\Desktop\final project\main.css" crc="1627271116372"/>
+  <file name="C:\Users\carlo\Desktop\final project\jquery.slicknav.min.js" crc="1606095021000"/>
+  <file name="C:\Users\carlo\Desktop\final project\jquery-3.2.1.slim.min.js" crc="1606095021000"/>
+  <file name="C:\Users\carlo\Desktop\final project\jquery-3.2.1.min.js" crc="1626980588000"/>
+  <file name="C:\Users\carlo\Desktop\final project\index.html" crc="1627277879950"/>
+  <file name="C:\Users\carlo\Desktop\final project\Importance.html" crc="1627320707029"/>
+  <file name="C:\Users\carlo\Desktop\final project\Importance.css" crc="1627026039075"/>
+  <file name="C:\Users\carlo\Desktop\final project\image_swap.js" crc="1606095021000"/>
+  <file name="C:\Users\carlo\Desktop\final project\Dangers.html" crc="1627320707044"/>
+  <file name="C:\Users\carlo\Desktop\final project\contact.css" crc="1627313943514"/>
+  <file name="C:\Users\carlo\Desktop\final project\Contact us.html" crc="1627320707029"/>
+  <file name="C:\Users\carlo\Desktop\final project\BeePage.css" crc="1627271116372"/>
+ </filescache>
+</project>

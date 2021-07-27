@@ -1,0 +1,176 @@
+/* the styles for the elements */
+* {
+		 
+	margin: 0;
+	padding: 0;
+	
+}
+html {
+		 padding-top: 1em;
+		 background-color:#d06800
+}
+body {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 960px;
+	margin: 0 auto;
+	border: 3px solid #000951;;
+	background-color: #fffded;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #000951;
+	background-image: -moz-linear-gradient(30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+	background-image: -webkit-linear-gradient(30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+	background-image: -o-linear-gradient(30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+	background-image: linear-gradient(30deg, #73cdf6 0%, #73CDF6 30%, white 50%, #73CDF6 80%, #73CDF6 100%);
+}
+header h1{
+	font-size: 175%;
+	color: #000951;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	color: #000951;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+			text-shadow: 2px 2px 2px orangered;
+}
+/* the styles for the main content */
+main {
+	clear: left;
+}
+
+
+/* the styles for the navigation menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #000951;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* the styles for the section */
+main {
+	
+	float: left;
+	padding: 0 45px 45px;
+}
+main h1 {
+	color: #800000;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
+}
+main h1.spaceafter {
+	margin-bottom: .25em;
+}
+main p {
+	padding-bottom: .5em;
+}
+main blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+main ul {
+	padding: .25em 0 .5em 0;
+}
+main li {
+	padding-bottom: .35em;
+}
+/* the styles for the image swap list */
+main #image_list li {
+	padding: 2px;
+	display: inline;
+}
+main #image_list a {
+	border: none;
+}
+main #image_list ul {
+	padding-bottom: .25em;
+	text-decoration: none;
+}
+/* the styles for the image rollover */
+main #image_rollovers {
+	list-style: none;
+}
+/* the styles for the accordion */
+main #accordion img {
+	float: left;
+	margin: .25em .75em .25em 0;
+}
+
+
+
+
+
+
+/* the styles for the footer */
+footer {
+	background-color: #000951;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+
+@media print {
+	body {
+		font-family: "Times New Roman", Times, serif";
+		width: auto;
+		border: none;
+	}
+	p {
+		font-size: 87.5%;
+	}
+	#nav_menu, #printButton {
+		display: none;
+	}
+
+	footer p {
+		padding-top: .75em;
+		border-top: 3px solid #931420;
+	}
+}
